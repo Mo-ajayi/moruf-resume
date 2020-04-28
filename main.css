@@ -1,0 +1,162 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+img {
+  border-radius: 50%;
+  width: 210px;
+  height: 220px;
+  margin: 60px 50px;
+}
+.interest {
+  color: #272727;
+  padding: 15px;
+  text-align: center;
+  word-spacing: 30px;
+}
+
+p {
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: stretch;
+}
+
+.column1of2 {
+  width: 302px;
+  background-color: #69f09e;
+}
+.fas {
+  padding: 15px;
+}
+.information {
+  background-color: #272727;
+  color: #687971;
+  text-align: center;
+  padding: 5px;
+}
+.detail {
+  font-size: 14px;
+}
+#hobbies {
+  margin-top: 300px;
+}
+
+.column2of2 {
+  width: 100%;
+  margin: 0px;
+  background-color: #a9aca53d;
+  padding-left: 10px;
+}
+.container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+#under {
+  text-decoration: underline;
+  text-decoration-color: #69f09e;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+.container3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+.personal {
+  border-bottom: 1px solid #69f09e;
+  padding: 5px;
+  margin-top: 70px;
+}
+.time {
+  display: flex;
+}
+.time div {
+  margin-left: 15px;
+}
+
+@media all and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .personal {
+    margin-top: 30px;
+  }
+  .container1 {
+    display: block;
+    width: 90%;
+  }
+  .container2 {
+    display: block;
+    width: 90%;
+  }
+  p {
+    width: 90%;
+  }
+
+  .column1of2 {
+    width: 90%;
+    margin: 0px;
+  }
+  .column2of2 {
+    width: 90%;
+    margin: 0px;
+  }
+  img {
+    margin: 0 auto;
+  }
+
+  .container3 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+}
+
+@media all and (max-width: 360px) {
+  aside.column1of2 img {
+    margin-top: 10px;
+  }
+
+  .column1of2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .column2of2 {
+    width: 100%;
+    padding-left: 10px;
+  }
+}
